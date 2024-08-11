@@ -103,3 +103,46 @@ body {
 .nav-list li a:hover {
   background-color: #313131;
 }
+
+/* navbar styling end */
+
+/* hero section started form here */
+
+.hero-section {
+  background: linear-gradient(
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 10)
+    ),
+    url("https://img.freepik.com/free-vector/technology-background-with-earth-circuit-diagram_1017-19385.jpg?t=st=1723365499~exp=1723369099~hmac=24460f6a5386b56a7e4237251c2d3513f2bfb56e31f4149c87107954964d06aa&w=740");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 300px;
+  max-width: 98%;
+  margin: auto;
+  display: flex;
+  border-radius: 30px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2px;
+  position: relative;
+}
+
+.hero-content {
+  position: absolute;
+  bottom: 20px;
+  left: 50px;
+  color: white;
+  max-width: 800px;
+}
+
+.hero-content a {
+  color: #d30000;
+}
+
+.hero-content a:hover {
+  color: rgb(238, 108, 108);
+}
+
+/* hero section end here */
