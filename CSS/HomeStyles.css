@@ -179,6 +179,10 @@ body {
   margin-bottom: 20px;
 }
 
+.hompage-second-card-container {
+  margin-top: 30px;
+}
+
 .more-link {
   display: inline-block;
   position: absolute;
