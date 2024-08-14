@@ -105,3 +105,55 @@ body {
 }
 
 /* navbar styling end */
+
+/* hero section started form here */
+
+.hero-section {
+  background: linear-gradient(
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 10)
+    ),
+    url("https://img.freepik.com/free-vector/futuristic-earth-digital-background-with-particle-effect_1017-33690.jpg?t=st=1723615537~exp=1723619137~hmac=ba62913052674573738b734dc85e6b7a56f38af24c8cd712354c33ebb385a1eb&w=900");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 463px;
+  max-width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2px;
+}
+
+.hero-content {
+  text-align: center;
+  color: white;
+  max-width: 800px;
+}
+
+.hero-content h1 {
+  font-size: 50px;
+  line-height: 55px;
+}
+
+.hero-content button {
+  margin-top: 20px;
+  color: white;
+  background-color: #d30000;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 15px;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.hero-content button:hover {
+  background-color: #bd0101;
+  transform: scale(1.05);
+}
+
+/* hero section end here */
