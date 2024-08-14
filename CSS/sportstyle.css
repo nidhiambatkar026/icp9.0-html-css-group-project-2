@@ -199,14 +199,16 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 20px;
+  gap:10px;
+  
 }
 
 .card {
-  width: 250px;
+  width:250px;
   gap: 15px;
   border: 1px solid #c9c9c9;
-  border-radius: 5px;
+  border-radius: 10px;
+  padding:2px;
 }
 
 .card img {
@@ -215,6 +217,7 @@ body {
   object-fit: cover;
   background-position: center;
   background-size: cover;
+
 }
 
 .sport-Card {
