@@ -158,6 +158,36 @@ body {
 
 /* hero section end here */
 
+.about-content-cards {
+  max-width: 1000px;
+  margin: 40px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.about-content {
+  width: 400px;
+  height: auto;
+  border: 1px solid #dfdfdf;
+  border-radius: 5px;
+  padding: 14px;
+  cursor: pointer;
+  transition: transform 0.8 ease-in-out;
+}
+
+.about-content:hover {
+  transform: scale(1.02);
+}
+
+.about-content h1 {
+  color: #272727;
+}
+.about-content p {
+  color: #3b3b3b;
+}
 /* footer has been started from here  */
 
 .footer-section {
