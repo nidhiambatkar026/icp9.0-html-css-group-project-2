@@ -124,191 +124,80 @@ body {
       rgba(0, 0, 0, 0.6),
       rgba(0, 0, 0, 10)
     ),
-    url("https://img.freepik.com/free-vector/technology-background-with-earth-circuit-diagram_1017-19385.jpg?t=st=1723365499~exp=1723369099~hmac=24460f6a5386b56a7e4237251c2d3513f2bfb56e31f4149c87107954964d06aa&w=740");
+    url("https://img.freepik.com/free-vector/futuristic-earth-digital-background-with-particle-effect_1017-33690.jpg?t=st=1723615537~exp=1723619137~hmac=ba62913052674573738b734dc85e6b7a56f38af24c8cd712354c33ebb385a1eb&w=900");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 300px;
-  max-width: 98%;
+  height: 463px;
+  max-width: 100%;
   margin: auto;
   display: flex;
-  border-radius: 30px;
   justify-content: center;
   align-items: center;
   margin-top: 2px;
-  position: relative;
 }
 
 .hero-content {
-  position: absolute;
-  bottom: 20px;
-  left: 50px;
+  text-align: center;
   color: white;
   max-width: 800px;
 }
 
-.hero-content a {
-  color: #d30000;
+.hero-content h1 {
+  font-size: 50px;
+  line-height: 55px;
 }
 
-.hero-content a:hover {
-  color: rgb(238, 108, 108);
+.hero-content button {
+  margin-top: 20px;
+  color: white;
+  background-color: #d30000;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 15px;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.hero-content button:hover {
+  background-color: #bd0101;
+  transform: scale(1.05);
 }
 
 /* hero section end here */
 
-/* homepage content card started */
-
-.section-container {
-  max-width: 1300px;
-  margin: auto; margin-top: 30px;
-  padding: 10px;
-  margin-top: 50px;
-}
-
-.homepage-content {
+.about-content-cards {
+  max-width: 1000px;
+  margin: 40px auto;
   display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-}
-
-.homepage-Cards-container {
-  flex: 3;
-  max-width: 800px;
-}
-
-.homepage-heading-details {
-  position: relative;
-}
-
-.homepage-heading-details h1 {
-  text-transform: uppercase;
-  color: #161616;
-  border-bottom: 4px solid #d80202;
-  padding-bottom: 10px;
-  margin-bottom: 20px;
-}
-
-.hompage-second-card-container {
- 
-}
-
-.more-link {
-  display: inline-block;
-  position: absolute;
-  top: 10px;
-  right: 0;
-  margin-top: 10px;
-  padding-left: 20px;
-  padding-right: 10px;
-  color: white;
-  background-color: #d80202;
-  text-decoration: none;
-}
-
-/* Card styling */
-.cards {
-  display: flex;
-  flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
   gap: 20px;
 }
 
-.card {
-  width: 250px;
-  gap: 15px;
-  border: 1px solid #c9c9c9;
+.about-content {
+  width: 400px;
+  height: auto;
+  border: 1px solid #dfdfdf;
   border-radius: 5px;
-}
-
-.card img {
-  width: 250px;
-  height: 150px;
-  object-fit: cover;
-  background-position: center;
-  background-size: cover;
-}
-
-.homepage-Card {
-  flex: 1;
-  padding: 4px;
-}
-
-.homepage-Card h3 {
-  font-size: 13px;
-}
-
-.homepage-Card p {
-  font-size: 12px;
-}
-
-.homepage-Card a {
-  font-size: 12px;
-  color: #d80202;
-  text-decoration: none;
-}
-
-/* Sidebar styling */
-.homepage-Sidebar {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  width: 200px;
-}
-
-.sidebar-section {
-  margin-bottom: 20px;
-}
-
-.sidebar-section a {
-  display: block;
-  font-size: 14px;
-  margin: 10px 0px;
+  padding: 14px;
   cursor: pointer;
-  color: #313131;
-}
-.sidebar-section a:hover {
-  color: red;
+  transition: transform 0.8 ease-in-out;
 }
 
-.sidebar-section button {
-  padding: 8px 14px;
-  background-color: #d80202;
-  color: white;
-  border: none;
-  cursor: pointer;
-}
-.sidebar-section button:hover {
-  background-color: #d80202e0;
-}
-.newsletter-section form {
-  display: flex;
-  flex-direction: column;
+.about-content:hover {
+  transform: scale(1.02);
 }
 
-.newsletter-section input {
-  margin-bottom: 10px;
-  padding: 8px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
+.about-content h1 {
+  color: #272727;
 }
-
-.newsletter-section button {
-  padding: 10px;
-  background-color: #d80202;
-  color: white;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
+.about-content p {
+  color: #3b3b3b;
 }
-
-.newsletter-section button:hover {
-  background-color: #d80202e0;
-}
-
-/* homepage content card ended */
-
 /* footer has been started from here  */
 
 .footer-section {
