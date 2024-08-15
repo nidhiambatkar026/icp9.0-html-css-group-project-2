@@ -128,10 +128,19 @@ body {
     text-align: center;
   }
   .img_container{
-    background-color: tomato;
-  }
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+  
   .front_img{
     height:670px;
     width: auto;
-    margin-left: 460px;
+  }
+  .information_block{
+    height: 500px;
+    width: 1000px;
+    margin-top: 30px;
+    font-size: 20px;
   }
