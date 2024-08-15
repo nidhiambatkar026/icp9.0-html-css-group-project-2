@@ -121,7 +121,17 @@ body {
   .readmore-heading-details h1 {
     text-transform: uppercase;
     color: #161616;
-    border-bottom: 4px solid #d80202;
+    border-bottom: 3px solid #d80202;
+    padding-top: 25px;
     padding-bottom: 10px;
     margin-bottom: 20px;
+    text-align: center;
+  }
+  .img_container{
+    background-color: tomato;
+  }
+  .front_img{
+    height:670px;
+    width: auto;
+    margin-left: 460px;
   }
