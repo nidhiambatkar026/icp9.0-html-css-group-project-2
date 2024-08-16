@@ -137,4 +137,10 @@
     
     .paragraph {
         text-align: center;
+        font-family: poppins;
+    }
+    
+    .heading {
+        color: #8a8a5c;
+        text-align: center;
     }
