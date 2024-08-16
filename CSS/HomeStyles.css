@@ -488,3 +488,14 @@ body {
     font-size: 14px;
   }
 }
+ .selected-navbar
+ {
+  background-color: #333;
+ }
+ 
+ .homepage-Card a:hover
+ {
+  text-decoration: underline;
+  color: #d30000;
+ }
+ 
