@@ -1,0 +1,145 @@
+import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f0f0f0;
+    font-family: "Poppins", sans-serif;
+}
+
+.top-navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.top-navbar h4 {
+    color: #161616;
+    font-size: 18px;
+}
+
+.top-navbar h2 {
+    color: #d30000;
+    font-size: 30px;
+}
+
+.top-navbar .heading-fisrt {
+    color: #161616;
+}
+
+.top-nav-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 35px;
+}
+
+.top-nav-list li {
+    list-style: none;
+}
+
+.top-nav-list li a {
+    text-decoration: none;
+    color: #d30000;
+    font-size: 15px;
+}
+
+.top-nav-list li a:hover {
+    text-decoration: underline;
+}
+
+.top-nav-icons img {
+    width: 25px;
+    margin-right: 10px;
+}
+
+.top-nav-search-bar {
+    background-color: white;
+    border-radius: 5px;
+    padding: 8px;
+    border: solid 1px #696969;
+    margin-top: 8px;
+    position: relative;
+}
+
+.top-nav-search-bar input {
+    width: 250px;
+    border: none;
+    outline: none;
+}
+
+.top-nav-search-bar img {
+    width: 17px;
+    position: absolute;
+    right: 5px;
+    top: 12px;
+    cursor: pointer;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    gap: 20px;
+    background-color: #161616;
+}
+
+.nav-list li a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    padding: 14px 15px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-list li a:hover {
+    background-color: #313131;
+}
+
+
+/* navbar styling end */
+
+
+/* hero section started form here */
+
+.hero-section {
+    background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 10)), url("https://img.freepik.com/free-vector/technology-background-with-earth-circuit-diagram_1017-19385.jpg?t=st=1723365499~exp=1723369099~hmac=24460f6a5386b56a7e4237251c2d3513f2bfb56e31f4149c87107954964d06aa&w=740");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+    max-width: 98%;
+    margin: auto;
+    display: flex;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2px;
+    position: relative;
+}
+
+.hero-content {
+    position: absolute;
+    bottom: 20px;
+    left: 50px;
+    color: white;
+    max-width: 800px;
+}
+
+.hero-content a {
+    color: #d30000;
+}
+
+.hero-content a:hover {
+    color: rgb(238, 108, 108);
+}
+
+
+/* hero section end here */
