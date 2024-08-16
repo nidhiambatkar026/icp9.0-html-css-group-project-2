@@ -400,9 +400,10 @@ body {
   margin:50px;
   padding:50px;
   width:1000px;
+  
   border-radius:10px;
   border:2px solid white;
-  position: fixed;
+ 
    margin-left:200px;
    margin-right:200px;
 
