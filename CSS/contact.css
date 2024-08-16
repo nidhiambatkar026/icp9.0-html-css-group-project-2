@@ -149,3 +149,15 @@
         text-align: center;
         justify-content: center;
     }
+    
+    .bottom-bar {
+        background-color: #161616;
+        text-align: center;
+    }
+    
+    .input {
+        width: 280px;
+        text-align: center;
+        background-color: #5c5c3d;
+        color: #fff;
+    }
