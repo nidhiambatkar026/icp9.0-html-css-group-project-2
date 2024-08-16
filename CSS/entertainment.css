@@ -115,8 +115,7 @@ body {
 }
 
 /* navbar styling end */
-
-/* hero section started form here */
+  /* hero section started form here */
 
 .hero-section {
   background: linear-gradient(
@@ -157,7 +156,7 @@ body {
 
 /* hero section end here */
 
-/* homepage content card started */
+/* page content card started */
 
 .section-container {
   max-width: 1300px;
@@ -189,10 +188,12 @@ body {
   margin-bottom: 20px;
 }
 
-
-
+.page-second-card-container {
+  display: flex;
+  flex-direction: row;
+  
  
-
+}
 
 .more-link {
   display: inline-block;
@@ -212,14 +213,16 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 20px;
+  gap:10px;
+  
 }
 
 .card {
-  width: 250px;
+  width:250px;
   gap: 15px;
   border: 1px solid #c9c9c9;
-  border-radius: 5px;
+  border-radius: 10px;
+  padding:2px;
 }
 
 .card img {
@@ -228,6 +231,7 @@ body {
   object-fit: cover;
   background-position: center;
   background-size: cover;
+
 }
 
 .page-Card {
@@ -248,6 +252,42 @@ body {
   color: #d80202;
   text-decoration: none;
 }
+.back-btn{
+  height: 50px;
+  width: 50px;
+  padding-top:10px;
+}
+.readmore-heading-details {
+  position: relative;
+}
+
+.readmore-heading-details h1 {
+  text-transform: uppercase;
+  color: #161616;
+  border-bottom: 3px solid #d80202;
+  padding-top: 7px;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.img_container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.front_img{
+  height:670px;
+  width: auto;
+}
+.information_block{
+  height: 500px;
+  width: 1000px;
+  margin-top: 30px;
+  font-size: 20px;
+}
+
 
 /* Sidebar styling */
 .page-Sidebar {
@@ -308,7 +348,7 @@ body {
   background-color: #d80202e0;
 }
 
-/* homepage content card ended */
+/* page content card ended */
 
 /* footer has been started from here  */
 
