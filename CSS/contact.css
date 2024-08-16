@@ -118,3 +118,11 @@
         justify-content: space-around;
         flex-wrap: wrap;
     }
+    
+    .card {
+        width: 250px;
+        background-color: #fff;
+        height: 250px;
+        border-radius: 10px;
+        border: none;
+    }
