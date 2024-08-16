@@ -367,12 +367,20 @@ body {
   align-items: center;
 }
 
+.d-t{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  margin-left: 120px;
+}
+
 .front_img{
   height:670px;
   width: auto;
 }
 .information_block{
-  height: 500px;
+  height: 700px;
   width: 1000px;
   margin-top: 30px;
   font-size: 20px;
