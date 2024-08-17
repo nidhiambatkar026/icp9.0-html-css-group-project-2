@@ -22,6 +22,10 @@ body {
   font-size: 18px;
 }
 
+.main-logo a {
+  text-decoration: none;
+}
+
 .top-navbar h2 {
   color: #d30000;
   font-size: 30px;
