@@ -343,7 +343,7 @@ body {
 /* footer has been Ended here  */
 /*news content  */
 .news-con{
-
+ border-bottom: 1px solid red;
 }
 .text-center{
   text-align: center;
