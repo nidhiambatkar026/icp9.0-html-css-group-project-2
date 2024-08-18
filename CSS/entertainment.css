@@ -292,7 +292,10 @@ body {
 .back-btn{
   height: 50px;
   width: 50px;
-  padding-top:10px;
+  padding-top:20px;
+  position: absolute;
+  top: -15px;
+  left: 20px;
 }
 .readmore-heading-details {
   position: relative;
@@ -306,6 +309,7 @@ body {
   padding-bottom: 10px;
   margin-bottom: 20px;
   text-align: center;
+  margin-top: 25px;
 }
 .img_container{
   display: flex;
@@ -342,11 +346,20 @@ body {
 }
 
 .sidebar-section a {
+<<<<<<< HEAD
     display: block;
     font-size: 14px;
     margin: 10px 0px;
     cursor: pointer;
     color: #313131;
+=======
+  display: block;
+  font-size: 14px;
+  margin: 10px 0px;
+  cursor: pointer;
+  color: #313131;
+  text-decoration: none;
+>>>>>>> 9cfff066332e3f1f9299fa5e75afbdffa58cd075
 }
 
 .sidebar-section a:hover {
@@ -389,11 +402,14 @@ body {
 .newsletter-section button:hover {
     background-color: #d80202e0;
 }
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 
 /* homepage content card ended */
 =======
+=======
+>>>>>>> 9cfff066332e3f1f9299fa5e75afbdffa58cd075
 /* page content card ended */
 >>>>>>> fa6d46f8752bce7d450d56f40a00065be06412a8
 
