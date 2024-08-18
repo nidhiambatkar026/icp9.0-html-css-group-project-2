@@ -2,7 +2,9 @@
 
 * {
   margin: 0;
-  }
+  padding: 0;
+}
+
 body {
   background-color: #f0f0f0;
   font-family: "Poppins", sans-serif;
@@ -101,211 +103,158 @@ body {
 .nav-list li a:hover {
   background-color: #313131;
 }
-
-/* navbar styling end */
-
-/* hero section started form here */
-
-.hero-section {
-  background: linear-gradient(
-      rgba(0, 0, 0, 0),
-      rgba(0, 0, 0, 0.6),
-      rgba(0, 0, 0, 10)
-    ),
-    url("https://img.freepik.com/free-vector/technology-background-with-earth-circuit-diagram_1017-19385.jpg?t=st=1723365499~exp=1723369099~hmac=24460f6a5386b56a7e4237251c2d3513f2bfb56e31f4149c87107954964d06aa&w=740");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 300px;
-  max-width: 98%;
-  margin: auto;
-  display: flex;
-  border-radius: 30px;
-  justify-content: center;
-  align-items: center;
-  margin-top: 2px;
-  position: relative;
-}
-
-.hero-content {
-  position: absolute;
-  bottom: 20px;
-  left: 50px;
-  color: white;
-  max-width: 800px;
-}
-
-.hero-content a {
-  color: #d30000;
-}
-
-.hero-content a:hover {
-  color: rgb(238, 108, 108);
-}
-
-/* hero section end here */
-
 /* homepage content card started */
 
 .section-container {
-  max-width: 1300px;
-  margin: auto; margin-top: 30px;
-  padding: 10px;
-  margin-top: 50px;
-}
-
-.sport-content {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-}
-
-.sport-Cards-container {
-  flex: 3;
-  max-width: 800px;
-}
-
-.sport-heading-details {
-  position: relative;
-}
-
-.sport-heading-details h1 {
-  text-transform: uppercase;
-  color: #161616;
-  border-bottom: 4px solid #d80202;
-  padding-bottom: 10px;
-  margin-bottom: 20px;
-}
-
-.sport-second-card-container {
-  display: flex;
-  flex-direction: row;
+    max-width: 1300px;
+    margin: auto;
+    padding: 10px;
+    margin-top: 50px;
+  }
   
- 
-}
-
-.more-link {
-  display: inline-block;
-  position: absolute;
-  top: 10px;
-  right: 0;
-  margin-top: 10px;
-  padding-left: 20px;
-  padding-right: 10px;
-  color: white;
-  background-color: #d80202;
-  text-decoration: none;
-}
-
-/* Card styling */
-.cards {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap:10px;
+  .homepage-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
   
-}
-
-.card {
-  width:250px;
-  gap: 15px;
-  border: 1px solid #c9c9c9;
-  border-radius: 10px;
-  padding:2px;
-}
-
-.card img {
-  width: 250px;
-  height: 150px;
-  object-fit: cover;
-  background-position: center;
-  background-size: cover;
-
-}
-
-.sport-Card {
-  flex: 1;
-  padding: 4px;
-}
-
-.sport-Card h3 {
-  font-size: 13px;
-}
-
-.sport-Card p {
-  font-size: 12px;
-}
-
-.sport-Card a {
-  font-size: 12px;
-  color: #d80202;
-  text-decoration: none;
-}
-
-/* Sidebar styling */
-/* Sidebar styling */
-.sport-Sidebar {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  width: 200px;
-  font-size:19px;
-}
-
-.sidebar-section {
-  margin-bottom: 20px;
-}
-
-.sidebar-section a {
-  display: block;
-  font-size: 14px;
-  margin: 10px 0px;
-  cursor: pointer;
-  color: #313131;
-}
-.sidebar-section a:hover {
-  color: red;
-}
-
-.sidebar-section button {
-  padding: 8px 14px;
-  background-color: #d80202;
-  color: white;
-  border: none;
-  cursor: pointer;
-}
-.sidebar-section button:hover {
-  background-color: #d80202e0;
-}
-.newsletter-section form {
-  display: flex;
-  flex-direction: column;
-}
-
-.newsletter-section input {
-  margin-bottom: 10px;
-  padding: 8px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-}
-
-.newsletter-section button {
-  padding: 10px;
-  background-color: #d80202;
-  color: white;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-.newsletter-section button:hover {
-  background-color: #d80202e0;
-}
-
-/* homepage content card ended */
-
-/* footer has been started from here  */
+  .homepage-Cards-container {
+    flex: 3;
+    max-width: 800px;
+  }
+  
+  .homepage-heading-details {
+    position: relative;
+  }
+  
+  .homepage-heading-details h1 {
+    text-transform: uppercase;
+    color: #161616;
+    border-bottom: 4px solid #d80202;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .hompage-second-card-container {
+    margin-top: 30px;
+  }
+  
+  .more-link {
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    right: 0;
+    margin-top: 10px;
+    padding-left: 20px;
+    padding-right: 10px;
+    color: white;
+    background-color: #d80202;
+    text-decoration: none;
+  }
+  
+  /* Card styling */
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .card {
+    width: 250px;
+    gap: 15px;
+    border: 1px solid #c9c9c9;
+    border-radius: 5px;
+  }
+  
+  .card img {
+    width: 250px;
+    height: 150px;
+    object-fit: cover;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .homepage-Card {
+    flex: 1;
+    padding: 4px;
+  }
+  
+  .homepage-Card h3 {
+    font-size: 13px;
+  }
+  
+  .homepage-Card p {
+    font-size: 12px;
+  }
+  
+  .homepage-Card a {
+    font-size: 12px;
+    color: #d80202;
+    text-decoration: none;
+  }
+  
+  /* Sidebar styling */
+  .homepage-Sidebar {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 200px;
+  }
+  
+  .sidebar-section {
+    margin-bottom: 20px;
+  }
+  
+  .sidebar-section a {
+    display: block;
+    font-size: 14px;
+    margin: 10px 0px;
+    cursor: pointer;
+    color: #313131;
+  }
+  .sidebar-section a:hover {
+    color: red;
+  }
+  
+  .sidebar-section button {
+    padding: 8px 14px;
+    background-color: #d80202;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  .sidebar-section button:hover {
+    background-color: #d80202e0;
+  }
+  .newsletter-section form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .newsletter-section input {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .newsletter-section button {
+    padding: 10px;
+    background-color: #d80202;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .newsletter-section button:hover {
+    background-color: #d80202e0;
+  }
+  
+  /* homepage content card ended */
+  /* footer has been started from here  */
 
 .footer-section {
   padding: 40px 20px;
@@ -393,21 +342,15 @@ body {
 
 /* footer has been Ended here  */
 
-.container0
-{
- display:flex;
- flex-direction: column;
-  margin:50px;
-  padding:50px;
-  width:1000px;
- border-radius:10px;
- margin-left:200px;
-   margin-right:200px;
-
+.back-btn{
+  height: 50px;
+  width: 50px;
+  padding-top:10px;
 }
 .readmore-heading-details {
   position: relative;
 }
+
 .readmore-heading-details h1 {
   text-transform: uppercase;
   color: #161616;
@@ -417,16 +360,28 @@ body {
   margin-bottom: 20px;
   text-align: center;
 }
-.d-t
-{
+.img_container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.d-t{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: start;
   margin-left: 120px;
 }
-.back-btn{
-  height: 50px;
-  width: 50px;
-  padding-top:10px;
+
+.front_img{
+  height:670px;
+  width: auto;
+}
+.information_block{
+  height: 600px;
+  width: 1000px;
+  margin-top: 30px;
+  font-size: 20px;
 }
