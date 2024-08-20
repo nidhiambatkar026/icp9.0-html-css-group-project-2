@@ -88,3 +88,11 @@ body {
 .signup-link a:hover {
   text-decoration: underline;
 }
+
+/* Mobile Device */
+
+@media screen and (max-width: 500px) {
+  .login-container {
+    max-width: 350px;
+  }
+}
