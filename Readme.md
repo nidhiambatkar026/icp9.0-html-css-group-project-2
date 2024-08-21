@@ -89,5 +89,13 @@ Vivo, Xiaomi, and Samsung dominated India's smartphone market, with shipments re
 
 ![subscribe_news](./images/subscribe_image.png)
 
+## Contributers
+
+<a href="https://github.com/nidhiambatkar026/icp9.0-html-css-group-project-2/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=nidhiambatkar026/icp9.0-html-css-group-project-2" />
+</a>
+
+
+
 
 
