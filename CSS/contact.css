@@ -173,12 +173,32 @@
         }
         
         .input {
-            width: 250px;
+            width: 175px;
             background-color: #ccccbc;
-            height: 30px;
+            height: 40px;
             text-align: center;
-            color: red;
+            color: black;
             font-family: poppins;
+            border-radius: 20px;
+            cursor: pointer;
+            background-color: #fff;
+            font-size: 20px;
+            padding: 5px 10px;
+        }
+        
+        .input:hover {
+            background-color: red;
+            border: 1px;
+        }
+        
+        .message {
+            height: 65px;
+        }
+        
+        .box {
+            border-radius: 5px;
+            padding: 5px;
+            width: 220px;
         }
         /* footer has been started from here  */
         
