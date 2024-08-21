@@ -10,6 +10,16 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+/* sticky navbar css */
+header {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background-color: #fff;
+  z-index: 1000;
+}
+/* sticky navbar css */
+
 .top-navbar {
   display: flex;
   justify-content: space-around;
@@ -123,45 +133,76 @@ body {
 /* hero section started form here */
 
 .hero-section {
-  background: linear-gradient(
-      rgba(0, 0, 0, 0),
-      rgba(0, 0, 0, 0.6),
-      rgba(0, 0, 0, 10)
-    ),
-    url("https://img.freepik.com/free-vector/technology-background-with-earth-circuit-diagram_1017-19385.jpg?t=st=1723365499~exp=1723369099~hmac=24460f6a5386b56a7e4237251c2d3513f2bfb56e31f4149c87107954964d06aa&w=740");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 300px;
-  max-width: 98%;
-  margin: auto;
-  display: flex;
-  border-radius: 30px;
-  justify-content: center;
-  align-items: center;
-  margin-top: 2px;
   position: relative;
+  height: 80vh;
+  overflow: hidden;
+}
+
+.video-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80vh;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.background-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80vh;
+  object-fit: cover;
+  z-index: 0;
+}
+
+.gradient-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  z-index: 1;
 }
 
 .hero-content {
   position: absolute;
-  bottom: 20px;
-  left: 50px;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  max-width: 1200px;
   color: white;
-  max-width: 800px;
+  text-align: center;
+  z-index: 2;
+  padding: 20px;
 }
-.hero-content h1 {
-  font-size: 30px;
-}
+
 .hero-content p {
-  font-size: 16px;
+  margin-bottom: 20px;
 }
+
+.hero-content h1 {
+  font-size: 45px;
+  margin-bottom: 10px;
+}
+
 .hero-content a {
-  color: #d30000;
+  background-color: #d30000;
+  color: white;
+  margin-top: 10px;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: transform 0.4s ease, background-color 0.4s ease;
 }
 
 .hero-content a:hover {
-  color: rgb(238, 108, 108);
+  transform: scale(1.1);
+  background-color: rgb(170, 7, 7);
 }
 
 /* hero section end here */
@@ -538,6 +579,12 @@ body {
     margin-bottom: 8px;
   }
 
+  .hero-content {
+    top: 45%;
+    left: 50%;
+    width: 80%;
+  }
+
   .footer-nav-links {
     margin-bottom: 20px;
   }
@@ -660,6 +707,12 @@ body {
   .newsletter-section h2 {
     font-size: 20px;
     margin-bottom: 8px;
+  }
+
+  .hero-content {
+    top: 45%;
+    left: 50%;
+    width: 60%;
   }
 
   .footer-nav-links {
