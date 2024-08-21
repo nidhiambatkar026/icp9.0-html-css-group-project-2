@@ -255,7 +255,10 @@ body {
 .back-btn{
   height: 50px;
   width: 50px;
-  padding-top:10px;
+  padding-top:20px;
+  position: absolute;
+  top: -15px;
+  left: 20px;
 }
 .readmore-heading-details {
   position: relative;
@@ -269,6 +272,7 @@ body {
   padding-bottom: 10px;
   margin-bottom: 20px;
   text-align: center;
+  margin-top: 25px;
 }
 .img_container{
   display: flex;
@@ -308,7 +312,9 @@ body {
   margin: 10px 0px;
   cursor: pointer;
   color: #313131;
+  text-decoration: none;
 }
+
 .sidebar-section a:hover {
   color: red;
 }
@@ -347,7 +353,6 @@ body {
 .newsletter-section button:hover {
   background-color: #d80202e0;
 }
-
 /* page content card ended */
 
 /* footer has been started from here  */
