@@ -10,6 +10,16 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+/* sticky navbar css */
+header {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background-color: #fff;
+  z-index: 1000;
+}
+/* sticky navbar css */
+
 .top-navbar {
   display: flex;
   justify-content: space-around;
@@ -132,13 +142,12 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 463px;
+  height: 465px;
   max-width: 100%;
   margin: auto;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 2px;
 }
 
 .hero-content {
