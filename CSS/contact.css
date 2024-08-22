@@ -8,6 +8,16 @@
             background-color: #f0f0f0;
             font-family: "Poppins", sans-serif;
         }
+        /* sticky navbar css */
+        
+        header {
+            position: sticky;
+            top: 0;
+            width: 100%;
+            background-color: #fff;
+            z-index: 1000;
+        }
+        /* sticky navbar css */
         
         .top-navbar {
             display: flex;
@@ -147,7 +157,7 @@
             width: 100px;
             margin-left: 60px;
             margin-right: 60px;
-            height: 75px;
+            height: 50px;
             padding-top: 20px;
         }
         
@@ -159,6 +169,7 @@
         .heading {
             color: red;
             text-align: center;
+            margin-top: 5px;
         }
         
         .form {
@@ -173,12 +184,36 @@
         }
         
         .input {
-            width: 250px;
+            width: 175px;
             background-color: #ccccbc;
-            height: 30px;
+            height: 40px;
             text-align: center;
-            color: red;
+            color: black;
             font-family: poppins;
+            border-radius: 20px;
+            cursor: pointer;
+            background-color: #fff;
+            font-size: 20px;
+            padding: 5px 10px;
+        }
+        
+        .input:hover {
+            background-color: red;
+            border: 1px;
+        }
+        
+        .message {
+            height: 65px;
+        }
+        
+        .box {
+            border-radius: 5px;
+            padding: 5px;
+            width: 220px;
+        }
+        
+        .box:hover {
+            background-color: bisque;
         }
         /* footer has been started from here  */
         
