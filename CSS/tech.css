@@ -736,3 +736,63 @@ iframe{
   padding-top: 10px;
   margin:0px auto;
 }
+/* Tablet Device */
+
+@media screen and (min-width: 500px) and (max-width: 768px) {
+  .top-navbar {
+    flex-direction: column;
+  }
+
+  .top-nav-icons img {
+    display: none;
+  }
+
+  .top-nav-list {
+    margin: 8px auto;
+  }
+  .top-nav-search-bar input {
+    width: 400px;
+  }
+
+  .top-navbar h4 {
+    font-size: 18px;
+  }
+
+  .top-navbar h2 {
+    font-size: 28px;
+  }
+  .nav-list {
+    gap: 2px;
+    padding: 5px 0;
+  }
+
+  .nav-list li a {
+    padding: 8px 5px;
+    font-size: 14px;
+  }
+
+  .about-content {
+    width: 300px;
+  }
+
+  .about-content h2 {
+    font-size: 20px;
+    margin-bottom: 8px;
+  }
+
+  .about-content p {
+    font-size: 14px;
+  }
+
+  .footer-nav-links {
+    margin-bottom: 20px;
+  }
+
+  .footer-nav-links a {
+    font-size: 14px;
+  }
+
+  .footer-nav-links ul li {
+    font-size: 14px;
+  }
+}
