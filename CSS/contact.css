@@ -200,6 +200,7 @@
         .input:hover {
             background-color: red;
             border: 1px;
+            color: #fff;
         }
         
         .message {
@@ -210,10 +211,12 @@
             border-radius: 5px;
             padding: 5px;
             width: 220px;
+            border: 1px solid black;
         }
         
         .box:hover {
             background-color: bisque;
+            border: 2px solid black;
         }
         /* footer has been started from here  */
         
