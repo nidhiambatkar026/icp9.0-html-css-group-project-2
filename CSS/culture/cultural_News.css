@@ -16,133 +16,237 @@ body {
   align-items: center;
   padding: 20px;
 }
-
 .top-navbar h4 {
-  color: #161616;
-  font-size: 18px;
+    color: #161616;
+    font-size: 18px;
+  }
+  
+  .top-navbar h2 {
+    color: #d30000;
+    font-size: 30px;
+  }
+  
+  .top-navbar .heading-fisrt {
+    color: #161616;
+  }
+  
+  .top-nav-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 35px;
+  }
+  
+  .top-nav-list li {
+    list-style: none;
+  }
+  
+  .top-nav-list li a {
+    text-decoration: none;
+    color: #d30000;
+    font-size: 15px;
+  }
+  
+  .top-nav-list li a:hover {
+    text-decoration: underline;
+  }
+  
+  .top-nav-icons img {
+    width: 25px;
+    margin-right: 10px;
+  }
+  
+  .top-nav-search-bar {
+    background-color: white;
+    border-radius: 5px;
+    padding: 8px;
+    border: solid 1px #696969;
+    margin-top: 8px;
+    position: relative;
+  }
+  
+  .top-nav-search-bar input {
+    width: 250px;
+    border: none;
+    outline: none;
+  }
+  
+  .top-nav-search-bar img {
+    width: 17px;
+    position: absolute;
+    right: 5px;
+    top: 12px;
+    cursor: pointer;
+  }
+  
+  .nav-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    gap: 20px;
+    background-color: #161616;
+  }
+  
+  .nav-list li a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    padding: 14px 15px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .nav-list li a:hover {
+    background-color: #313131;
+  }
+  
+  .search-and-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .search-and-bar .menu-bar-icon {
+    width: 22px;
+    display: none;
+  }
+  /* navbar styling end */
+  
+  .back-btn{
+    height: 50px;
+    width: 50px;
+    padding-top:20px;
+    position: absolute;
+    top: -15px;
+    left: 20px;
+  }
+  .readmore-heading-details {
+    position: relative;
+  }
+  
+  .readmore-heading-details h1 {
+    text-transform: uppercase;
+    color: #161616;
+    border-bottom: 3px solid #d80202;
+    padding-top: 7px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-top: 25px;
+  }
+  .img_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+  
+  .front_img{
+    height:670px;
+    width: auto;
+  }
+  .information_block{
+    height: 500px;
+    width: 1000px;
+    margin-top: 30px;
+    font-size: 20px;
+  }
+  .d-t{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    margin-left: 120px;
+  }
 
-.top-navbar h2 {
-  color: #d30000;
-  font-size: 30px;
-}
+  /* footer has been started from here  */
 
-.top-navbar .heading-fisrt {
-  color: #161616;
-}
-
-.top-nav-list {
+.footer-section {
+  padding: 40px 20px;
+  margin-top: 80px;
+  background-color: #181717;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 20px;
-  margin-top: 35px;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
-.top-nav-list li {
-  list-style: none;
+.footer-nav-links {
+  flex: 1;
+  min-width: 220px;
+  margin: 0 30px;
 }
 
-.top-nav-list li a {
+.footer-nav-links h3 {
+  color: #ebebeb;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.footer-nav-links ul {
+  padding: 0;
+  margin: 0;
+  color: #dddddd;
+}
+
+.footer-nav-links ul li a {
   text-decoration: none;
-  color: #d30000;
+  color: #dddddd;
+  font-weight: 300;
+}
+
+.footer-nav-links ul li a:hover {
+  color: #e60505;
+}
+
+.footer-follow-us-Container {
+  margin-top: 25px;
+}
+
+.footer-nav-links ul li {
+  list-style: none;
+  margin-bottom: 10px;
   font-size: 15px;
 }
 
-.top-nav-list li a:hover {
-  text-decoration: underline;
-}
-
-.top-nav-icons img {
-  width: 25px;
-  margin-right: 10px;
-}
-
-.top-nav-search-bar {
-  background-color: white;
-  border-radius: 5px;
-  padding: 8px;
-  border: solid 1px #696969;
-  margin-top: 8px;
-  position: relative;
-}
-
-.top-nav-search-bar input {
-  width: 250px;
-  border: none;
-  outline: none;
-}
-
-.top-nav-search-bar img {
-  width: 17px;
-  position: absolute;
-  right: 5px;
-  top: 12px;
-  cursor: pointer;
-}
-
-.nav-list {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 0;
-  margin: 0;
-  list-style: none;
-  gap: 20px;
-  background-color: #161616;
-}
-
-.nav-list li a {
-  display: block;
-  text-decoration: none;
-  color: #fff;
-  padding: 14px 15px;
-  transition: background-color 0.3s ease;
-}
-
-.nav-list li a:hover {
-  background-color: #313131;
-}
-
-/* navbar styling end */
-
-/* hero section started form here */
-
-.hero-section {
-  background: linear-gradient(
-      rgba(0, 0, 0, 0),
-      rgba(0, 0, 0, 0.6),
-      rgba(0, 0, 0, 10)
-    ),
-    url("https://img.freepik.com/free-vector/technology-background-with-earth-circuit-diagram_1017-19385.jpg?t=st=1723365499~exp=1723369099~hmac=24460f6a5386b56a7e4237251c2d3513f2bfb56e31f4149c87107954964d06aa&w=740");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 300px;
-  max-width: 98%;
-  margin: auto;
-  display: flex;
-  border-radius: 30px;
-  justify-content: center;
-  align-items: center;
-  margin-top: 2px;
-  position: relative;
-}
-
-.hero-content {
-  position: absolute;
-  bottom: 20px;
-  left: 50px;
+.footer-nav-links input {
+  width: 90%;
+  padding: 12px;
+  border: 1px solid #333;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  background-color: #222;
   color: white;
-  max-width: 800px;
 }
 
-.hero-content a {
-  color: #d30000;
+.footer-nav-links button {
+  padding: 12px 25px;
+  border: none;
+  border-radius: 4px;
+  background-color: #bd0101;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  margin-top: 10px;
 }
 
-.hero-content a:hover {
-  color: rgb(238, 108, 108);
+.footer-nav-links button:hover {
+  background-color: #d30000;
+  transform: scale(1.05);
 }
 
-/* hero section end here */
+.footer-copyright-section {
+  padding: 20px 0px;
+  text-align: center;
+  background-color: #0e0d0d;
+  color: #b8b8b8;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+
+
+/* footer has been Ended here  */
