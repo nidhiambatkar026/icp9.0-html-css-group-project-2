@@ -1,22 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login-The News Reporter</title>
-    <link href="../CSS/login.css" rel="stylesheet">
-</head>
-<body>
-    <div class="block">
-      <h1> Login </h1>
-        <div class="input1">
-            <label for="name"><b> Username :</b></label>
-         <input type="text" id="name"  placeholder="Username">
-         <label for="password" > <b>Password : </b></label>
-         <input type="password"  id="password" placeholder="password">
-         <button> Login </button>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="../images/faviconIcon.jpeg" type="image/jpeg" />
+    <title>Login - News Website</title>
+    <link rel="stylesheet" href="../CSS/login.css" />
+  </head>
+  <body>
+    <div class="login-container">
+      <h1 class="title">Welcome Back!</h1>
+      <p class="subtitle">Log in to your News account</p>
+      <form>
+        <div class="input-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required />
         </div>
-    
+        <div class="input-group">
+          <label for="password">Password</label>
+          <input type="password" id="password" name="password" required />
+        </div>
+        <button type="submit" class="login-button">Login</button>
+      </form>
+      <p class="signup-link">Don't have an account? <a href="#">Sign Up</a></p>
     </div>
-</body>
+  </body>
 </html>
