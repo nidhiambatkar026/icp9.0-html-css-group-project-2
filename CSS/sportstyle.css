@@ -409,12 +409,12 @@ body {
  align-items: center;
   margin:50px;
   padding:50px;
-  width:1000px;
- border-radius:10px;
- margin-left:250px;
-   margin-right:250px;
+  border-radius:10px;
+ margin-left:150px;
+   margin-right:150px;
    font-size: 20px;
    position: relative;
+
 }
 .readmore-heading-details {
   position: relative;
