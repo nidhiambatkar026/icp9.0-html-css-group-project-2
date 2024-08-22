@@ -130,6 +130,20 @@ header {
 
 /* navbar styling end */
 
+/* Marquee Section */
+.marquee-container {
+  width: 100%;
+  overflow: hidden;
+  background-color: #b40000;
+  color: white;
+  padding: px 0;
+  box-sizing: border-box;
+  position: relative;
+  white-space: nowrap;
+  font-size: 14px;
+  padding: 10px;
+}
+
 /* hero section started form here */
 
 .hero-section {
