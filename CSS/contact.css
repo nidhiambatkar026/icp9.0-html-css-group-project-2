@@ -184,23 +184,23 @@
         }
         
         .input {
-            width: 175px;
-            background-color: #ccccbc;
+            width: 120px;
+            background-color:#d80202;
             height: 40px;
             text-align: center;
-            color: black;
+            color: #ffffff;
             font-family: poppins;
-            border-radius: 20px;
+            border-radius: 10px;
             cursor: pointer;
-            background-color: #fff;
-            font-size: 20px;
+            font-size: 15px;
             padding: 5px 10px;
+            border: none;
         }
         
         .input:hover {
-            background-color: red;
-            border: 1px;
+            background-color:#d80202e0;
             color: #fff;
+            transform: scale(1.1);
         }
         
         .message {
@@ -215,7 +215,7 @@
         }
         
         .box:hover {
-            background-color: bisque;
+            background-color: lightgrey;
             border: 2px solid black;
         }
         /* footer has been started from here  */
