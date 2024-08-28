@@ -16,7 +16,7 @@ header {
   top: 0;
   width: 100%;
   background-color: #fff;
-  z-index: 1000;
+  z-index: 10;
 }
 /* sticky navbar css */
 
@@ -136,8 +136,6 @@ header {
   overflow: hidden;
   background-color: #b40000;
   color: white;
-  padding: px 0;
-  box-sizing: border-box;
   position: relative;
   white-space: nowrap;
   font-size: 14px;
@@ -159,7 +157,6 @@ header {
   width: 100%;
   height: 80vh;
   overflow: hidden;
-  z-index: 0;
 }
 
 .background-video {
@@ -169,7 +166,6 @@ header {
   width: 100%;
   height: 80vh;
   object-fit: cover;
-  z-index: 0;
 }
 
 .gradient-overlay {
