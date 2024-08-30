@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./../css/contact.css">
+    <link rel="icon" href="./../../images/faviconIcon.jpeg" type="image/jpeg" />
     <title>the news reporter</title>
 </head>
 
@@ -22,7 +23,7 @@
                     <ul class="top-nav-list">
                         <li><a href="./../index.html">Home</a></li>|
                         <li><a href="./aboutusPage.html">About</a></li>|
-                        <li><a href="">Contact</a></li>|
+                        <li>Contact</li>|
                         <li><a href="./login.html">Login</a></li>
                     </ul>
                 </div>
@@ -42,13 +43,13 @@
 
             <div>
                 <ul class="nav-list">
-                    <li><a href="">world news</a></li>
-                    <li><a href="">Sports</a></li>
-                    <li><a href="./../tech/tech.html">Tech</a></li>
-                    <li><a href="">Entertainment</a></li>
-                    <li><a href="">Business</a></li>
-                    <li><a href="">Culture</a></li>
-                    <li><a href="">Education</a></li>
+                    <li><a href="./worldnews/worldnews.html">world news</a></li>
+                    <li><a href="./sport/sport.html">Sports</a></li>
+                    <li><a href="./tech/tech.html">Tech</a></li>
+                    <li><a href="./Entertainment/entertainment.html">Entertainment</a></li>
+                    <li><a href="./Business/Business_News.html">Business</a></li>
+                    <li><a href="./culture.html">Culture</a></li>
+                    <li><a href="./Education/education.html">Education</a></li>
                 </ul>
             </div>
         </nav>
@@ -76,21 +77,29 @@
         </div>
     </div>
 
-    <h1 class="contact ">connect with us</h1>
+    <h1 class="contact ">Connect with us</h1>
 
     <form class="form ">
         <label for="input full name ">  Full name:</label>
-        <input type="text " id="input full name " /> <br/> <br/>
+        <input type="text " id="input full name " required class="box" /> <br/> <br/>
 
-        <label for="input email "> Email:</label>
-        <input type="email " id="input email " /> <br/> <br/>
+        <label for="eamil">Enter Email:</label>
+        <a href="mailto:abc@gamil.com"> <input type="text" id="input email" required class="box" /></a>
+        <br/> <br/>
+        <label for="input password ">password:</label>
+        <input type="password" id="password " required class="box" /> <br/> <br/>
 
-        <label for="input subject "> subject</label>
-        <input type="subject " id=" input subject " /><br/><br/>
+        <label for="phone number ">number:</label>
+        <a href="tel:2345097856">
+            <input type="phone number " id="number " required class="box" />
+        </a><br/><br/>
+        <label for="input subject "> subject:</label>
+        <input type="subject " id=" input subject " required class="box " /> <br/><br/>
 
-        <label for="input meassage ">Message</label>
-        <input type="meassage " id="input message " /><br/><br/>
-        <input type="submit" value="send message" class="input" /> </form>
+        <label for="input meassage ">Message:</label>
+        <input type="meassage " id="input message " required class="box message" /><br/><br/>
+
+        <input type="submit " value="send message" class="input "/> </form>
     </div>
     </div>
 
@@ -109,22 +118,22 @@
             <div class="footer-nav-links ">
                 <h3>Links</h3>
                 <ul>
-                    <li><a href="# ">Home</a></li>
-                    <li><a href="./pages/aboutusPage.html ">About</a></li>
-                    <li><a href=" ">Contact</a></li>
-                    <li><a href=" ">Login</a></li>
+                    <li><a href="../index.html ">Home</a></li>
+                    <li><a href="./aboutusPage.html ">About</a></li>
+                    <li><a href="# ">Contact</a></li>
+                    <li><a href="./login.html ">Login</a></li>
                 </ul>
             </div>
             <div class="footer-nav-links ">
                 <h3>Important Links</h3>
                 <ul>
-                    <li><a href=" ">world news</a></li>
-                    <li><a href=" ">Sports</a></li>
-                    <li><a href=" ">Tech</a></li>
-                    <li><a href=" ">Entertainment</a></li>
-                    <li><a href=" ">Business</a></li>
-                    <li><a href=" ">Culture</a></li>
-                    <li><a href=" ">Education</a></li>
+                    <li><a href="./worldnews/worldnews.html ">world news</a></li>
+                    <li><a href=" ./sport/sport.html ">Sports</a></li>
+                    <li><a href="./tech/tech.html ">Tech</a></li>
+                    <li><a href="./Entertainment/entertainment.html ">Entertainment</a></li>
+                    <li><a href="./Business/Business_News.html ">Business</a></li>
+                    <li><a href="./culture.html ">Culture</a></li>
+                    <li><a href="./Education/education.html ">Education</a></li>
                 </ul>
             </div>
             <div class="footer-nav-links ">
@@ -151,5 +160,7 @@
         </div>
     </footer>
 </body>
+
+</html>
 
 </html>
